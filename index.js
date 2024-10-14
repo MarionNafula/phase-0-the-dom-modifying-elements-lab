@@ -1,2 +1,5 @@
-document.querySelector('#main').remove();
-var newHeader = document.querySelector('h1#victory');
+// Write your code here!
+main.remove()
+const newHeader = document.createElement("h1")
+newHeader.id = "victory"
+newHeader.textContent = "Adida Barack is the champion"
